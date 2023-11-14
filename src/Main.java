@@ -8,6 +8,8 @@ public class Main {
         Student student2 = new Student("gigit", 20, "java");
         Student student3 = new Student("mystva", 18, "js");
         Student student4 = new Student("jarkun", 22, "js");
+
+        System.out.println("");
         Student[] students = new Student[]{student, student1, student2, student3, student4};
         for (int i = 0; i < students.length; i++) {
             System.out.println(students[i]);
